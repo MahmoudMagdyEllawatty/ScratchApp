@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ndroid="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0000">
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/seperator"
+        android:background="@mipmap/my_ordr_btn"
+        android:id="@+id/lblListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dip"
+        android:layout_marginRight="-20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_toRightOf="@+id/seperator"
+        android:background="@mipmap/my_ordr_btn"
+        android:id="@+id/lblListItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dip"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        ndroid:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textColor="#000" />
+
+
+    <ImageView
+        android:layout_marginTop="2dp"
+        android:id="@+id/seperator"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/blackrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tToolbar"
+    android:layout_marginTop="-2dp"
+    android:layout_height="200dp"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@mipmap/background_navigation_bar"
+    android:gravity="top|start">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/title_cart"
+        android:layout_marginTop="7dp"
+        android:id="@+id/title_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/etsearch"
+        />
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/title_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/cart"/>
+
+
+
+</RelativeLayout>
+</android.support.v7.widget.Toolbar>

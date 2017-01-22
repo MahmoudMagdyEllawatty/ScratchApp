@@ -1,0 +1,30 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_wish_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.scratch.scratchapp.MyWishList">
+
+
+    <!--Toolbar-->
+    <include
+        android:id="@+id/tToolbar_wish_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/custom_title_for_children" />
+
+    <ListView
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tToolbar_wish_list"
+        android:id="@+id/myOrdersList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+</RelativeLayout>
+

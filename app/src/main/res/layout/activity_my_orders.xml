@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_orders"
+    android:layout_width="match_parent"
+    android:background="@mipmap/background_my_orders"
+    android:layout_height="match_parent"
+    tools:context="com.apps.scratch.scratchapp.MyOrders">
+
+
+    <!--Toolbar-->
+    <include
+        android:id="@+id/tToolbar_myOrders"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/custom_title_for_children" />
+
+    <ExpandableListView
+        android:layout_below="@+id/tToolbar_myOrders"
+        android:id="@+id/my_orders_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+
+
+
+
+</RelativeLayout>
+

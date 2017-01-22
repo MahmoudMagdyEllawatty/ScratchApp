@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.apps.scratch.scratchapp.Sign"
+                android:background="@mipmap/backsignin"
+    >
+
+
+
+    <ImageButton
+        android:id="@+id/Gmail_Sign"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/gmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/button_facebook_login"
+        />
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/button_facebook_login"
+        android:layout_below="@+id/Sign_Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="110dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageButton
+        android:id="@+id/Sign_Up"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Sign_In"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/Sign_In"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/signin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/mail"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/phone"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="5dp"
+        android:inputType="phone"
+        />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/name"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

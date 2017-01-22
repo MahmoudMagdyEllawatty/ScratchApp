@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "664562489425",
+    "firebase_url": "https://scratch-b3840.firebaseio.com",
+    "project_id": "scratch-b3840",
+    "storage_bucket": "scratch-b3840.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664562489425:android:03a30b3fdf885217",
+        "android_client_info": {
+          "package_name": "com.apps.scratch.scratchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664562489425-6brm72uvr58cf8q5j42f2316fopa2fb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6DTQbe1GvaXJgQ4SuNUWyeMzC2Q2tH7E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

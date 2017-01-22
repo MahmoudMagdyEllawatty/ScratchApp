@@ -1,0 +1,28 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.apps.scratch.scratchapp.Aboutus">
+
+
+    <!--Toolbar-->
+    <include
+        android:id="@+id/tToolbar_aboutUs"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/custom_title_for_children" />
+
+    <TextView
+        android:layout_below="@+id/tToolbar_aboutUs"
+        android:textColor="#000"
+        android:text="JUST BE PATIENT WHILE WE ADDING SOME INFORMATION ABOUT US :) :) :) :P :P :P"
+        android:textSize="39sp"
+        android:gravity="center"
+        android:id="@+id/MYWISHLISTTEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

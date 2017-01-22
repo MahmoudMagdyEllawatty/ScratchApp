@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:android="https://schemas.android.com/apk/res/android">
+    <group >
+            <item
+                android2:icon="@mipmap/my_orders"
+                android2:title="My Orders"
+                android2:id="@+id/order_menu"
+                />
+
+            <item
+                android2:icon="@mipmap/wishlist"
+                android2:title="My Likes"
+                android2:id="@+id/like_menu" />
+    </group>
+
+    <group >
+        <item
+            android2:icon="@mipmap/about_us"
+            android2:title="About Us"
+            android2:id="@+id/about_us_menu"
+            />
+
+    </group>
+</menu>
